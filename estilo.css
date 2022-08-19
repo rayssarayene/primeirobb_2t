@@ -1,12 +1,14 @@
 body {
-   background: #d696f0;
+   background: #f36eb0;
+   margin: 0;
+   padding: 0;
 }
 h1 {
    text-align: center;
 }
 .caixa1 {
   position: relative;
-  background: rgb(192, 65, 135);
+  background: rgb(104, 248, 68);
   width: 200px;
   height: 200px;
   color: #FFFFFF;
@@ -14,7 +16,7 @@ h1 {
 }
 .caixa2 {
   position: relative;
-  background: rgb(197, 97, 228);
+  background: rgb(247, 70, 202);
  width: 200px;
  height: 200px;
  color: #FFFFFF;
@@ -56,31 +58,33 @@ li a:hover {
 }
 .boxbomba {
    position: absolute;
-   width: 100% ;
+   width: 90% ;
    height: 200px ;
-   background: rgb(121, 54, 184);
+   background: rgb(90, 235, 235);
    top: 50px;
    left: 0;
-   border-color: rgb(56, 23, 56);
-   border-width: 15px;
+   border-color: rgb(83, 86, 250);
+   border-width: 20px;
    border-style: solid;
    margin: 20px;
    padding: 20px;
-}
- .rodape{
-    position: absolute;
-    bottom : 0;
-    background:black;
-    color: burlywood;
-    width: 100%;
-    left: 0;
-    height: 40px;
-    display: flex;
-    justfy-content: center;
-    font-size: 18px;
+   display: flex;
+   justify-content: start;
 
- }
- .conteudo {
-    position:absolute;
-    top: 45px;
- }
+}
+.rodape {
+   position: absolute;
+   bottom: 0;
+   background: black;
+   color: rgb(37, 245, 227);
+   width: 100%;
+   left: 0;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+}
+.conteudo {
+   position: absolute;
+   top: 45px;
+
+}
