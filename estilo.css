@@ -88,3 +88,18 @@ li a:hover {
    top: 45px;
 
 }
+.ray17 {
+   position: absolute;
+   width: 90%;
+   height: 200px;
+   background: rgb(90, 235, 235);
+   top: 400px;
+   left: 0;
+   border-color: rgb(83, 86, 250);
+   border-width: 20px;
+   border-style: solid;
+   margin: 20px;
+   padding: 20px;
+   display: flex;
+   justify-content: start;
+}
